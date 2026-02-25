@@ -1,58 +1,55 @@
-💰 Insurance Cost Prediction
+# 💰 Insurance Cost Prediction
 
-A Machine Learning project that predicts Medical Insurance Cost (₹) based on personal and health information using Linear Regression, with an interactive Streamlit web application.
+🔗 **Live App:** https://insurance-cost-predictor-o5bwxfrrgbn8riogntvjzp.streamlit.app/
 
-📖 Overview
+A Machine Learning project that predicts **Medical Insurance Cost (₹)** based on personal and health information using **Linear Regression**, with an interactive **Streamlit web application**.
 
-Medical insurance costs vary depending on factors such as age, BMI, smoking status, and region. This project builds a Linear Regression model to predict insurance charges based on these features.
+---
+
+## 📖 Overview
+
+Medical insurance costs depend on factors such as age, BMI, smoking status, and region. This project builds a Linear Regression model to predict insurance charges based on these features.
 
 This project demonstrates a complete Machine Learning workflow:
 
-Data loading and preprocessing
+- Data loading and preprocessing  
+- Exploratory Data Analysis (EDA)  
+- Feature encoding  
+- Model training using Linear Regression  
+- Model evaluation  
+- Saving the trained model  
+- Building and deploying a web app using Streamlit  
 
-Exploratory Data Analysis (EDA)
+---
 
-Feature encoding
+## 🧠 Model Details
 
-Model training using Linear Regression
+**Algorithm:** Linear Regression  
 
-Model evaluation
+**Input Features:**
 
-Saving the trained model
+- Age  
+- BMI  
+- Number of Children  
+- Sex  
+- Smoker Status  
+- Region  
 
-Building a web app using Streamlit
+**Output:**
 
-🧠 Model Details
+- Predicted Medical Insurance Cost  
 
-Algorithm: Linear Regression
+**Performance:**
 
-Input Features:
+- R² Score: 0.78  
+- Mean Absolute Error: ₹4176  
+- Root Mean Squared Error: ₹5793  
 
-Age
+---
 
-BMI
+## 📁 Project Structure
 
-Number of Children
-
-Sex
-
-Smoker Status
-
-Region
-
-Output:
-
-Predicted Medical Insurance Cost
-
-Performance:
-
-R² Score: 0.78
-
-Mean Absolute Error: ₹4176
-
-Root Mean Squared Error: ₹5793
-
-📁 Project Structure
+```text
 insurance-cost-predictor
 │
 ├── insurance_prediction.ipynb
@@ -61,72 +58,109 @@ insurance-cost-predictor
 ├── app.py
 ├── requirements.txt
 └── README.md
-🚀 Streamlit Application
+```
 
-This project includes a web application where users can:
+---
 
-Enter personal and health details
+## 🚀 Streamlit Web Application
 
-Get instant insurance cost prediction
 
-▶️ How to Run the Project
-Step 1: Clone the repository
+This project includes an interactive web application where users can:
+
+- Enter personal and health details  
+- Click Predict  
+- Get instant insurance cost prediction  
+
+
+
+## ▶️ How to Run the Project Locally
+
+### Step 1: Clone the repository
+
+```bash
 git clone https://github.com/yourusername/insurance-cost-predictor.git
-Step 2: Open project folder
+```
+
+### Step 2: Navigate to project folder
+
+```bash
 cd insurance-cost-predictor
-Step 3: Install libraries
+```
+
+### Step 3: Install dependencies
+
+```bash
 pip install -r requirements.txt
-Step 4: Run Streamlit app
+```
+
+### Step 4: Run Streamlit app
+
+```bash
 streamlit run app.py
-🛠️ Technologies Used
+```
 
-Python
+---
 
-Pandas
+## 🛠️ Technologies Used
 
-NumPy
+- Python  
+- Pandas  
+- NumPy  
+- Scikit-learn  
+- Streamlit  
+- Matplotlib  
+- Seaborn  
+- Pickle  
 
-Scikit-learn
+---
 
-Streamlit
+## 📊 Example
 
-Matplotlib
+**Input:**
 
-Seaborn
+```
+Age = 40  
+BMI = 30  
+Children = 2  
+Sex = Male  
+Smoker = Yes  
+Region = Southeast  
+```
 
-Pickle
+**Output:**
 
-📊 Example
-
-Input:
-
-Age = 40
-BMI = 30
-Smoker = Yes
-
-Output:
-
+```
 Predicted Insurance Cost ≈ ₹42000
-🎯 Project Purpose
+```
 
-This project was created to learn:
+---
 
-Linear Regression
+## 🎯 Project Purpose
 
-Data Analysis and Visualization
+This project was built to practice and demonstrate:
 
-Machine Learning Model Deployment
+- Linear Regression  
+- Machine Learning Workflow  
+- Data Analysis and Visualization  
+- Model Deployment  
+- Building ML Web Applications  
 
-Building ML Web Applications
+---
 
-⚠️ Disclaimer
+## ⚠️ Disclaimer
 
 This project is for educational purposes only and should not be used for real insurance decisions.
 
-👨‍💻 Author
+---
 
-Gowshik Subramaniyan
+## 👨‍💻 Author
 
-⭐ If you like this project
+**Gowshik Subramaniyan** 
 
-Please give it a ⭐ on GitHub.
+---
+
+## ⭐ Support
+
+If you like this project, please give it a ⭐ on GitHub!
+
+---
