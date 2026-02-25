@@ -78,7 +78,7 @@ This project includes an interactive web application where users can:
 ### Step 1: Clone the repository
 
 ```bash
-git clone https://github.com/yourusername/insurance-cost-predictor.git
+git clone https://github.com/kingowshik/insurance-cost-predictor.git
 ```
 
 ### Step 2: Navigate to project folder
